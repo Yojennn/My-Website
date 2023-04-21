@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Title>Project in ICT</Title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">Yalung's Project</h1>
+            <ul class="nav-links">
+            <li class="active"><a href="index.html"></a>Home</li>
+            <li class="ctn"><a href="beha.html">Behavioral Diagram</a></li>
+            <li class="ctn"><a href="struc.html">Structural Diagram</a></li>
+            <li class="ctn"><a href="abt.html">About Me</a></li>
+            <li class="ctn"><a href="https://www.facebook.com/yudai.yalung?mibextid=ZbWKwL">Contact</a></li>
+           </ul>
+           <img src="./img/menu.png" alt="" class="menu-btn">
+        </nav>
+         <header>
+            <div class="header-content">
+                <h2>Welcome To My Project in CP1121 & CP1122</h2>
+                <div class="line"></div>
+                <h1>Scroll down to see more!</h1>
+                <a href="first.html" class="ctn">Open my Project</a>
+            </div>
+        </header> 
+        
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>My Diagrams</h1>
+                    <div class="line"></div>
+                    <p>Here are some examples of my Behavioral and Structural Diagram.</p>
+                    <a href="first.html" class="ctn">I'd like to see more</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                    <img src="./Structural/class.jpg" alt="">
+                    <img src="./Structural/component.jpg" alt="">
+                    <img src="./behavioral/activity.jpg" alt="">
+                    <img src="./behavioral/usecage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+           <div class="explore-content"> 
+            <h1>Visual Paradigm</h1>
+            <p>Visual Paradigm is a software application designed for software development teams to model business information systems and manage development processes. In addition to modeling support, this technology provides report generation and code engineering capabilities including code generation.</p>
+            <a href="https://www.visual-paradigm.com/" class="ctn">Learn More</a>
+        </div>
+        </section>           
+
+
+        <section class="events">
+            <div class="title">
+                <h1>Contact Me</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                <img src="./img/me.jpg" alt="">
+                <h4>Yujin Yalung</h4>
+                    <p>This is my Personal Facebook Acc, feel free to message if you need anything.</p>
+                <a href="https://www.facebook.com/yudai.yalung?mibextid=ZbWKwL" class="ctn">Contact Me</a>
+            </div>
+            <div class="col">
+                <img src="./img/me2.jpg" alt="">
+                <h4>@yudaiyalung</h4>
+                    <p>This is my Personal Instagram Acc, feel free to message if you need anything.</p>
+                <a href="https://instagram.com/yudaiyalung?igshid=ZDdkNTZiNTM=" class="ctn">Contact Me</a>
+            </div>
+        </div>
+        </section>
+        
+        <section class="footer">
+            <p>This is my HTML project for CP1121 and CP1122.</p>
+            <p>Made by: Yujin Yalung from IC1DB</p>
+        </section>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+            </script>
+    </body>
+    </html>
